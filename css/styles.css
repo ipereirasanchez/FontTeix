@@ -427,6 +427,7 @@ img { max-width: 100%; display: block; }
   line-height: 1.7;
   color: var(--ink-soft);
   margin: 0 0 16px;
+  text-align: justify;
 }
 
 .text-card p:last-child { margin-bottom: 0; }
@@ -482,10 +483,12 @@ img { max-width: 100%; display: block; }
 .contact-line:hover { color: var(--accent); }
 
 .print-btn {
+  display: inline-block;
   font-family: var(--sans);
   font-size: 13px;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+  text-decoration: none;
   background: none;
   border: 1px solid var(--ink);
   color: var(--ink);
